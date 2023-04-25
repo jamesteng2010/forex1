@@ -1,5 +1,5 @@
-﻿Intent,Description
-Query_PRICE,咨询关于房价的事情， 例如询问这个房子目前市场价格
-Query_SOLD_AROUND,问题关于询问给定房子的周边成交情况
-QUERY_SUBURB,问题关于某一个指定suburb的情况的
-QUERY_HISTORY_SOLD,问题关于某一个指定房子的历史成交价格
+﻿Intent,Description,return format
+Query_PRICE,咨询关于房价的事情， 例如询问这个房子目前市场价格,{address : xxxx}
+Query_SOLD_AROUND,问题是有关于询问给定房子的周边成交情况,
+QUERY_SUBURB,问题关于某一个指定suburb的情况的,{suburb : xxxx}
+QUERY_HISTORY_SOLD,问题关于某一个指定房子的历史成交价格,{address : xxxx}
